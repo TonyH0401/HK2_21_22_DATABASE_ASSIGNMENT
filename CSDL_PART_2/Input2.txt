@@ -1,0 +1,2 @@
+Student{SID,Name,BirthYear,Faculty,Score}_F{SID+Name-BirthYear;SID+BirthYear-Name;Name+BirthYear-Faculty+Score}
+Student{SID,Name,BirthYear,Faculty}_F{SID+Name-BirthYear+Faculty;Name-Faculty;BirthYear-SID}

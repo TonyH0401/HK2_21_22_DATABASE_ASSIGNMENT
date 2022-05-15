@@ -1,0 +1,10 @@
+Student{SID,Name,BirthYear,Faculty,Score}
+F{SID+Name-BirthYear;SID+BirthYear-Name;Name+BirthYear-Faculty+Score}
+The keys: [['SID', 'Name'], ['SID', 'BirthYear']]
+The Closure of ['SID', 'BirthYear']: ['SID', 'BirthYear', 'Name', 'Faculty', 'Score']
+
+Student{SID,Name,BirthYear,Faculty}
+F{SID+Name-BirthYear+Faculty;Name-Faculty;BirthYear-SID}
+The keys: [['SID', 'Name'], ['Name', 'BirthYear']]
+The Closure of ['SID', 'BirthYear']: ['SID', 'BirthYear']
+
