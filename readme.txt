@@ -10,7 +10,3 @@ Part 2: use Java or Python, I opted for Python because it's easier (the Java ver
 2. Question 2:
 + Create closure from entities and relationships, you might need to study the closure algorithm or standardlization
 
-
-
-
-
